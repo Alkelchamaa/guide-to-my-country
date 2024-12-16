@@ -1,0 +1,75 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .slide-in-left {
+            transform: translateX(-100%);
+            opacity: 0;
+            transition: transform 1s ease-out, opacity 1s ease-out;
+        }
+
+        .slide-in-left.visible {
+            transform: translateX(0);
+            opacity: 1;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="preloader"> </div>
+    <nav>
+        <span><a href="index.html">Home</a> </span>
+        <span><a href="visitingtips.html">visiting-Tips</a> </span>
+        <span>Video</span>
+    </nav>
+    <h1 class="slide-in-left">Video</h1>
+    <script>
+        window.onload = function() {
+            const elements = document.querySelectorAll('.slide-in-left');
+            elements.forEach(element => {
+                element.classList.add('visible');
+            });
+        };
+    </script>
+    <article>
+    <section>
+        <a class="debbane-palace-video" href="#debbane-palace-video">Debbane-palace-video</a>
+        <a class="khan-al-franj-video" href="#khan-al-franj-video">Khan al-franj-video</a>
+        <a class="castle-video" href="#castle-video">Sidon-castle-video</a>
+
+
+    </section>
+    <section class="castle-video" >
+    <h3>More info about Sidon`s Castle:</h3>
+    <p class="slide-in-left">It is a historic fortress located on a small island off the coast of Sidon, Lebanon. Built by the Crusaders in the 13th century, the castle has witnessed centuries of history, from Crusader occupation to Ottoman control. Its strategic location on the Mediterranean made it an important military stronghold. Today, the castle stands as a well-preserved landmark, with its thick stone walls, arched passageways, and stunning sea views offering visitors a glimpse into the region's medieval past.</p>
+    <div><iframe id="castle-video" width="560" height="315"  src="https://www.youtube.com/embed/wPYrWsif_KE?si=Pai4hDVD0F2mQt9O" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+    <hr>
+    </section>
+    <section class="khan-al-franj-video" >
+    <h3>More info about Khan`s al-Franj:</h3>
+    <p class="slide-in-left">Built in the 17th century during the Ottoman era, stands as a testament to the city's rich commercial history. Once a bustling caravanserai for European and regional traders, the khan is now a preserved historical monument. Its grand architecture, featuring a central courtyard, vaulted ceilings, and arched doorways, reflects the practical beauty of Ottoman design. Today, it serves as a cultural landmark, offering visitors a glimpse into Sidon’s vibrant past as a key Mediterranean trading hub.</p>
+    <div><iframe  id="khan-al-franj-video" width="560" height="315" src="https://www.youtube.com/embed/0QJa1QlQ0Wk?si=XgTyFlKvQB5UlL5X" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+    <hr>
+</section>
+<section class="debbane-palace-video" >
+    <h3>More info about Debbane`s Palace:</h3>
+    <p class="slide-in-left">Designated as a historical monument in 1968 by Lebanon's Ministry of Culture, the palace has since undergone a transformative journey. Today, it stands as a private museum under the management of the Debbané Foundation. Within its walls, this remarkable museum offers a rich tapestry of history, displaying an impressive array of Ottoman-era furniture, a collection of ancient musical instruments, and meticulously curated exhibits recounting the rich tapestry of Sidonian history. Every piece within the palace, from the intricately crafted musical instruments to the antique music players, stands as a testament to the dedication and care put into preserving the cultural heritage housed within its walls.</p>
+    <div><iframe id="debbane-palace-video"  width="560" height="315" src="https://www.youtube.com/embed/0pkk6BY9wnY?si=O8Fs24M6E8Yk3N6S" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+
+</section>
+</article>
+<script src="script.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+

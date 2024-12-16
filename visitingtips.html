@@ -1,0 +1,110 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Map</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .slide-in-left {
+            transform: translateX(-100%);
+            opacity: 0;
+            transition: transform 1s ease-out, opacity 1s ease-out;
+        }
+
+        .slide-in-left.visible {
+            transform: translateX(0);
+            opacity: 1;
+        }
+    </style>
+</head>
+<body>
+    <div id="preloader"> </div>
+    <nav>
+        <span><a href="index.html">Home</a></span>
+        <span>visiting-Tips</span>
+        <span><a href="video.html">video</a></span>
+    
+    </nav>
+    <h1 class="slide-in-left">local-visiting-Tips</h1>
+    <script>
+        window.onload = function() {
+            const elements = document.querySelectorAll('.slide-in-left');
+            elements.forEach(element => {
+                element.classList.add('visible');
+            });
+        };
+    </script>
+<article> 
+<h2>Here some tips to enjoy your visit:</h2>
+<section id="Travel-tips">
+   <h2>1. Travel Tips:</h2>
+<p class="slide-in-left">- **Best Time to Visit:** The ideal time to visit Sidon is during the spring (March to May) and autumn (September to November) when the weather is pleasant and mild.
+    <br>
+    - **Transportation:** Sidon is well-connected by road. You can take a bus or taxi from Beirut, which is about 40 kilometers away. Once in Sidon, you can explore the city on foot or use local taxis for convenience.</p>
+</section>
+<br>
+<br>
+
+<section id="Etiquette">
+    <h2> 2. Local Etiquette:</h2>
+<p class="slide-in-left">Understanding and respecting local customs and etiquette can enhance your experience in Sidon:
+    <br>
+    - **Greetings:** A warm handshake is a common greeting in Sidon. It is polite to greet people with "Marhaba" (Hello) or "Salam" (Peace).
+    <br>
+    - **Dress Code:** Dress modestly, especially when visiting religious sites. Avoid wearing revealing clothing to show respect for local customs.
+    <br>
+    - **Dining Etiquette:** It is customary to say "Sahtein" (Bon Appétit) before a meal and "Shukran" (Thank you) after. Accepting food and drink when offered is considered polite.</p>
+</section>
+<br>
+<br>
+<section id="safety">    
+<h2>3. Safety Tips:</h2>
+<p class="slide-in-left">Ensuring your safety while exploring Sidon is important for a worry-free visit:
+    <br>
+    - **Health Precautions:** Stay hydrated, especially during the summer months. Use sunscreen and wear a hat to protect yourself from the sun. It's also advisable to carry a basic first aid kit.
+    <br>
+    - **Avoiding Scams:** Be cautious of common tourist scams. If something seems too good to be true, it probably is. Stick to reputable tour operators and establishments.
+    <br>
+    - **Personal Belongings:** Keep an eye on your belongings, especially in crowded areas. Use a money belt or a secure bag to keep your valuables safe.
+    <br>
+    By following these local tips, you can have a more enjoyable and enriching experience while visiting Sidon.</p>
+</section>
+<br>
+<br>
+<section id="Cuisine">
+    <h2>4. Local Cuisine:</h2>
+    <p class="slide-in-left">Sidon is known for its delicious local cuisine. Don't miss trying traditional dishes like:
+        <br>
+        - **Kibbeh:** A deep-fried bulgur and meat dish that is a staple in Lebanese cuisine.
+        <br>
+        - **Tabbouleh:** A refreshing salad made with parsley, tomatoes, mint, onion, and bulgur.
+        <br>
+        - **Hummus:** A creamy spread made from mashed chickpeas, tahini, olive oil, lemon juice, and garlic.</p>
+</section>
+<br>
+<br>
+<section id="Souks-and-Markets">
+<h2>5. Souks and Markets</h2>
+<p class="slide-in-left">Exploring Sidon's souks (markets) is a must-do experience. You can find a variety of goods, including:
+    <br>
+    - Handmade crafts and souvenirs
+    <br>
+    - Spices and herbs
+    <br>
+    - Traditional clothing and textiles</p>
+</section>
+<br>
+<br>
+<section id="beaches">
+    <h2>6. Beaches:</h2>
+    <p class="slide-in-left">Sidon has beautiful beaches where you can relax and enjoy the Mediterranean Sea. Some popular beaches include:
+        <br>
+        - **Ras al-Bayyada:** A sandy beach with clear waters, perfect for swimming and sunbathing.
+        <br>
+        - **Corniche Road:** A coastal promenade with cafes and restaurants, offering stunning views of the sea.</p>
+    </section>
+
+</article>
+<script src="script.js"></script>
+</body>
+</html>

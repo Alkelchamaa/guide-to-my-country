@@ -1,0 +1,67 @@
+
+h1{
+    text-align: center;
+    color: #333333;
+}
+hr{
+    color: #333333 ;
+}
+h2,h3{
+    color: #333333 ;
+}
+body{
+    background-color: #87ceeb;
+}
+div{
+    text-align: center;
+    font-size: 40px;
+}
+.img{
+    width: 400x;
+    margin: 10px ;
+    float:inline-end;
+}
+p{
+    color: #005a5a;
+    margin: 5px;
+}
+ul{
+    color: #005a5a;
+}
+span{
+    font-size: 30px;
+    color:#333333;
+    margin: 20px;
+    font-style: italic;
+}
+.map{
+    border-style:dashed ;
+    border-color: #333333;
+    
+}
+.sidon{
+    font-size: 35px;
+}
+#preloader{
+    background: #000 url("preloader.gif") no-repeat center center;
+    background-size: 20% ;
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+}
+.debbane-palace,.khan-al-franj,.sidoncastle,.intro,.khan-al-franj-video,.debbane-palace-video,.castle-video{
+    color: #333333;
+    float: right;
+    margin: 15px;
+}
+#debbane-palace,#khan-al-franj,#sidoncastle,#intro,#Travel-Tips,#safety,#Etiquette,#beaches,#Souks-and-Markets,#Cuisine{
+ border: #333333 dotted 5px;
+}
+#castle-video,#khan-al-franj-video,#debbane-palace-video{
+    border: #333333 double 15px;
+}
+.link-design1,.link-design2,.link-design3{
+    color: #333333;
+    bo
+}
